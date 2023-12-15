@@ -7,7 +7,7 @@ Feature: validate playlist API
   Scenario: verify if fetch playlist functionality is working
     Given Get a playlist payload
     When user calls with GET http request
-    Then API call executes with status code 201
+    Then API call executes with status code 200
 
   Scenario: verify if update playlist functionality is working
     Given Get update playlist payload
